@@ -1,0 +1,61 @@
+
+
+.feature {
+    position: relative;
+    background: wheat;
+    color: black;
+    text-align: center;
+    top: 50px;
+    left: 140px;
+    margin: 40px;
+    height: 40px;
+    width: 80px;
+}
+
+table td {
+    color: black;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    font-size: 5em;
+    background-color: wheat;
+    background-repeat: no-repeat;
+}
+
+table td:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+#memory_header {
+    position: relative;
+    text-align: center;
+}
+
+#restart {
+    position: relative;
+    top: 70px;
+    left: 240px;
+}
+
+.restart_btn {
+    padding: 30px 80px;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+    background-color: #fffafa;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 9px #999;
+}
+
+.restart_btn:hover {
+    background-color: #ddd;
+}
+
+#score {
+    position: relative;
+    left: 30px;
+    top: 150px;
+}
+
